@@ -1,0 +1,75 @@
+body{
+margin: 0 25% 0 25%;
+font-family: 'Montserrat', sans-serif;
+text-align: justify;
+line-height: 25px;
+}
+h1{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 200%;
+}
+h2{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 200%;
+}
+q{
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-size: 70%;
+}
+p{
+
+  white-space: pre-line;
+  text-align: justify;
+}
+p::first-letter{
+  font-size: 200%;
+  font-weight: bolder;
+}
+.lien-auteur{
+  font-size: 120%;
+}
+blockquote{
+margin: 20px 20px 20px 20px;
+border-left : 3px solid #000;
+padding-left : 20px;
+font-size : 120%;
+background-color: #D7D7D7;
+
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 20px 20px 20px 20px;
+}
+footer{
+  display: block;
+  position: inherit;
+  bottom: 0;
+  Height: 75px;
+  margin: 0 -50% 0 -50%;
+  padding-top : 5%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+a{
+  color: inherit;
+  font-weight: normal;
+}
+a:hover{
+  color: #698196;
+  text-decoration:underline;
+  font-weight: bolder;
+}
+a:visited{
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+}
